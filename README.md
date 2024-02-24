@@ -44,3 +44,7 @@ Eg:
 ```
 sam local invoke -t ./cdk.out/AwsCdkLambdaTypescriptDemoStack.template.json my-hello-lambda
 ```
+To Clean up Resources
+```
+npx cdk destroy
+```
